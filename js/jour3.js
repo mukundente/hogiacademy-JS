@@ -80,3 +80,28 @@ while(a<50)
 {
     console.log("hello hogi,:"+a++);
 }
+
+//3 equation ax**2bx+c=0
+
+
+let a = prompt("donner la valeur de a");
+let b = prompt("donner la valeur de b");
+let c = prompt("donner la valeur c")
+let delta = b*b-4(a*c);
+if(delta>0){
+    y=math.aqrt(delta);
+    let x1= (-b+y)/2;
+    let x2= (-b-y)/2;
+    console.log ("x1 est:"+x1);
+    console.log("x2 est:"+x2);}
+
+    else{
+        if (delta==0){
+        let v=-b/2
+        console.log("x1 et x2 est:"+v);
+            
+    }
+        else{console.log("pas de reponse car delta ne peut psa etre negatif")
+        
+    }
+}
