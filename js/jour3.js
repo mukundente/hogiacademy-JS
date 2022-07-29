@@ -71,3 +71,12 @@ if(a>b && b < c) {
     }
 }
 }
+
+//2.ercire ("hello hogi")50 fois
+
+
+let a =0;
+while(a<50)
+{
+    console.log("hello hogi,:"+a++);
+}
