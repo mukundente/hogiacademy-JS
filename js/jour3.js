@@ -105,3 +105,22 @@ if(delta>0){
         
     }
 }
+
+      //1tableaux java script
+      // la solution  du tableaux
+      //pourqoui le tableaux
+      //creation d'un tableaux
+
+      let x = 4
+       x = x+2
+      console.log(x)
+      >6
+       x+=4
+       console.log(x)
+     >10
+
+
+     
+
+
+     
