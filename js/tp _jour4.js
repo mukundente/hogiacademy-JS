@@ -6,6 +6,7 @@
 	- explorez d'autres methodes possibles applicables aux tableaux  */
 
 
+
 const tableau =[22,67,79,73,23,25,28,29,28,45,39,59]    
 const compar = (a, b) =>a-b;
 tableau.sort(compar);
